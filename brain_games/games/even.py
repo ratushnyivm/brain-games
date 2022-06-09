@@ -34,7 +34,7 @@ def even():
             else:
                 return print(
                     f'"{answer}" is wrong answer ;(. Correct answer was "no".'
-                    f'\nLet\'s try again, "{name}"!'
+                    f'\nLet\'s try again, {name}!'
                 )
 
     return print(f"Congratulations, {name}!")
