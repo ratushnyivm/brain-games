@@ -26,21 +26,22 @@ def calc():
         }
 
         operators = list(operators_sign.keys())
-        r = random.choice(operators)
+        right_answer = random.choice(operators)
 
-        question = f'{number1} {operators_sign[r]} {number2}'
+        question = f'{number1} {operators_sign[right_answer]} {number2}'
         print(f'Question: {question}')
 
         answer = prompt.string('Your answer: ')
 
         if_correct = 'Correct!'
 
-        if answer == str(r):
+        if answer == str(right_answer):
             print(if_correct)
 
         else:
             return print(
-                f"'{answer}' is wrong answer ;(. Correct answer was '{r}'."
+                f"'{answer}' is wrong answer ;(."
+                f"Correct answer was '{right_answer}'."
                 f"\nLet's try again, {name}!"
             )
 
