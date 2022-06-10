@@ -1,6 +1,14 @@
 import prompt
 import random
-import sympy
+
+
+def isPrime(n):
+    if n % 2 == 0:
+        return n == 2
+    d = 3
+    while d * d <= n and n % d != 0:
+        d += 2
+    return d * d > n
 
 
 def prime():
@@ -14,7 +22,7 @@ def prime():
     for i in range(3):
         question = random.randrange(100)
 
-        right_answer = 'yes' if sympy.isprime(question) else 'no'
+        right_answer = 'yes' if isPrime(question) else 'no'
 
         print(f'Question: {question}')
         answer = prompt.string('Your answer: ')
