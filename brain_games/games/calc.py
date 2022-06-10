@@ -35,7 +35,7 @@ def calc():
 
         if_correct = 'Correct!'
 
-        if int(answer) == r:
+        if answer == str(r):
             print(if_correct)
 
         else:
