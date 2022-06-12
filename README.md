@@ -1,4 +1,63 @@
 ### Hexlet tests and linter status:
-[![Actions Status](https://github.com/ratushnyyvm/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ratushnyyvm/python-project-lvl1/actions) <a href="https://codeclimate.com/github/codeclimate/codeclimate/maintainability"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability" /></a> <a href="https://codeclimate.com/github/codeclimate/codeclimate/test_coverage"><img src="https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/test_coverage" /></a>
-### Test asciinema
-<a href="https://asciinema.org/a/LeBKDfsTVyiJapdmQfiyJIeUx" target="_blank"><img src="https://asciinema.org/a/LeBKDfsTVyiJapdmQfiyJIeUx.svg" /></a>
+[![Actions Status](https://github.com/ratushnyyvm/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ratushnyyvm/python-project-lvl1/actions)
+[![Maintainability](https://api.codeclimate.com/v1/badges/263dbcf381e84b4b2d7d/maintainability)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/263dbcf381e84b4b2d7d/test_coverage)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/test_coverage)
+
+
+## Demonstration
+
+<details>
+  <summary>installing</summary>
+    
+  [![asciicast](https://asciinema.org/a/zkATUVLZSBN6jrkVR1WKSv0vO.svg)](https://asciinema.org/a/zkATUVLZSBN6jrkVR1WKSv0vO)
+</details>
+
+<details>
+  <summary>brain_calc</summary>
+    
+  ### win
+  [![asciicast](https://asciinema.org/a/afy2sguMnRBjRoRlyqCtNvX0i.svg)](https://asciinema.org/a/afy2sguMnRBjRoRlyqCtNvX0i)
+
+  ### loss
+  [![asciicast](https://asciinema.org/a/cQ4H28iDB7QmW0gLMZAiKxZFE.svg)](https://asciinema.org/a/cQ4H28iDB7QmW0gLMZAiKxZFE)
+</details>
+
+<details>
+  <summary>brain_even</summary>
+    
+  ### win
+  [![asciicast](https://asciinema.org/a/Pi463y4vW3Wywd3kHQF715uPr.svg)](https://asciinema.org/a/Pi463y4vW3Wywd3kHQF715uPr)
+
+  ### loss
+  [![asciicast](https://asciinema.org/a/bwTeK1GzdHR1vimJ0zrCwRd3K.svg)](https://asciinema.org/a/bwTeK1GzdHR1vimJ0zrCwRd3K)
+</details>
+
+<details>
+  <summary>brain_gcd</summary>
+    
+  ### win
+  [![asciicast](https://asciinema.org/a/WI7a3Jmkh0JMpaCRHXrtVFtCM.svg)](https://asciinema.org/a/WI7a3Jmkh0JMpaCRHXrtVFtCM)
+
+  ### loss
+  [![asciicast](https://asciinema.org/a/3zAxZBZeiRMbY2q5BIJXTFR8G.svg)](https://asciinema.org/a/3zAxZBZeiRMbY2q5BIJXTFR8G)
+</details>
+
+<details>
+  <summary>brain_prime</summary>
+    
+  ### win
+  [![asciicast](https://asciinema.org/a/VhqbhjLTf335qGb2OcrTI9qxc.svg)](https://asciinema.org/a/VhqbhjLTf335qGb2OcrTI9qxc)
+
+  ### loss
+  [![asciicast](https://asciinema.org/a/BySgKuaomBu8kGsaLOoerhoGk.svg)](https://asciinema.org/a/BySgKuaomBu8kGsaLOoerhoGk)
+</details>
+
+<details>
+  <summary>brain_progression</summary>
+    
+  ### win
+  [![asciicast](https://asciinema.org/a/5w3osqrNiQrzldPdevzK9AWn1.svg)](https://asciinema.org/a/5w3osqrNiQrzldPdevzK9AWn1)
+
+  ### loss
+  [![asciicast](https://asciinema.org/a/ayAXLlBgzc3zdH9fpVDChQZNV.svg)](https://asciinema.org/a/ayAXLlBgzc3zdH9fpVDChQZNV)
+</details>
