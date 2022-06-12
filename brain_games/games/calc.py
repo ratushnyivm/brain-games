@@ -1,48 +1,32 @@
-import prompt
 import random
 import operator
 
 
 def calc():
-    print('Welcome to the Brain Games!')
+    output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
 
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    output['game_condition'] = 'What is the result of the expression?'
 
-    print('What is the result of the expression?')
+    number1 = random.randrange(30)
+    number2 = random.randrange(20)
 
-    for i in range(3):
-        number1 = random.randrange(30)
-        number2 = random.randrange(20)
+    addition = operator.add(number1, number2)
+    subtraction = operator.sub(number1, number2)
+    multiplication = operator.mul(number1, number2)
 
-        addition = operator.add(number1, number2)
-        subtraction = operator.sub(number1, number2)
-        multiplication = operator.mul(number1, number2)
+    operators_sign = {
+        addition: '+',
+        subtraction: '-',
+        multiplication: '*'
+    }
 
-        operators_sign = {
-            addition: '+',
-            subtraction: '-',
-            multiplication: '*'
-        }
+    operators = list(operators_sign.keys())
+    right_answer = random.choice(operators)
 
-        operators = list(operators_sign.keys())
-        right_answer = random.choice(operators)
+    output['right_answer'] = str(right_answer)
 
-        question = f'{number1} {operators_sign[right_answer]} {number2}'
-        print(f'Question: {question}')
+    question = f'{number1} {operators_sign[right_answer]} {number2}'
 
-        answer = prompt.string('Your answer: ')
+    output['question'] = question
 
-        if_correct = 'Correct!'
-
-        if answer == str(right_answer):
-            print(if_correct)
-
-        else:
-            return print(
-                f"'{answer}' is wrong answer ;(."
-                f"Correct answer was '{right_answer}'."
-                f"\nLet's try again, {name}!"
-            )
-
-    return print(f"Congratulations, {name}!")
+    return output
