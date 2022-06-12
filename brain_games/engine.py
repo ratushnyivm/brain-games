@@ -11,7 +11,7 @@ def engine(game_module, number_of_rounds=3):
         print(f"Question: {output_of_game_module['question']}")
         answer = prompt.string('Your answer: ')
         if_right = 'Correct!'
-        if_wrong = f"'{answer}' is wrong answer ;(."\
+        if_wrong = f"'{answer}' is wrong answer ;(. "\
             f"Correct answer was '{output_of_game_module['right_answer']}'."\
             f"\nLet's try again, {name}!"
         if answer == output_of_game_module['right_answer']:
