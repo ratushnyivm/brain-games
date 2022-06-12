@@ -1,4 +1,3 @@
-import prompt
 import random
 
 
@@ -12,31 +11,14 @@ def isPrime(n):
 
 
 def prime():
-    print('Welcome to the Brain Games!')
+    output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
+    output['game_condition'] = 'Answer "yes" if given number is prime. '\
+        'Otherwise answer "no".'
 
-    name = prompt.string('May I have your name? ')
-    print(f'Hello, {name}!')
+    question = random.randrange(100)
+    output['question'] = question
 
-    print('Answer "yes" if given number is prime. Otherwise answer "no".')
+    right_answer = 'yes' if isPrime(question) else 'no'
+    output['right_answer'] = str(right_answer)
 
-    for i in range(3):
-        question = random.randrange(100)
-
-        right_answer = 'yes' if isPrime(question) else 'no'
-
-        print(f'Question: {question}')
-        answer = prompt.string('Your answer: ')
-
-        if_correct = 'Correct!'
-
-        if answer == right_answer:
-            print(if_correct)
-
-        else:
-            return print(
-                f'"{answer}" is wrong answer ;(.'
-                f'Correct answer was "{right_answer}".'
-                f'\nLet\'s try again, {name}!'
-            )
-
-    return print(f"Congratulations, {name}!")
+    return output
