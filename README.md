@@ -8,7 +8,7 @@
 <details>
   <summary>installing</summary>
     
-  [![asciicast](https://asciinema.org/a/zkATUVLZSBN6jrkVR1WKSv0vO.svg)](https://asciinema.org/a/zkATUVLZSBN6jrkVR1WKSv0vO)
+  [![asciicast](https://asciinema.org/a/iXe6qBsfULEBR7qo6fAsSdVHo.svg)](https://asciinema.org/a/iXe6qBsfULEBR7qo6fAsSdVHo)
 </details>
 
 <details>
