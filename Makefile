@@ -11,6 +11,7 @@ publish:
 	poetry publish --dry-run
 
 package-install:
+	python3 -m pip uninstall hexlet-code -y
 	python3 -m pip install --user dist/*.whl
 
 package-reinstall:
