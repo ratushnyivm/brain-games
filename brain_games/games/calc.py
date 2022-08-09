@@ -1,10 +1,12 @@
 import random
 import operator
 
+DESCRIPTION = 'What is the result of the expression?'
+
 
 def calc():
     output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
-    output['game_condition'] = 'What is the result of the expression?'
+    output['game_condition'] = DESCRIPTION
 
     number1 = random.randrange(30)
     number2 = random.randrange(20)

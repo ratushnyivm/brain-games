@@ -1,9 +1,11 @@
 import random
 
+DESCRIPTION = 'What number is missing in the progression?'
+
 
 def progression():
     output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
-    output['game_condition'] = 'What number is missing in the progression?'
+    output['game_condition'] = DESCRIPTION
 
     progression_length = random.randrange(6, 11)
     first_value = random.randrange(0, 20)

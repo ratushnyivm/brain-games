@@ -1,7 +1,9 @@
 import random
 
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
-def isPrime(n):
+
+def is_prime(n):
     if n % 2 == 0:
         return n == 2
     d = 3
@@ -12,13 +14,12 @@ def isPrime(n):
 
 def prime():
     output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
-    output['game_condition'] = 'Answer "yes" if given number is prime. '\
-        'Otherwise answer "no".'
+    output['game_condition'] = DESCRIPTION
 
     question = random.randrange(100)
     output['question'] = question
 
-    right_answer = 'yes' if isPrime(question) else 'no'
+    right_answer = 'yes' if is_prime(question) else 'no'
     output['right_answer'] = str(right_answer)
 
     return output

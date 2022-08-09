@@ -1,10 +1,11 @@
 import random
 
+DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def even():
     output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
-    output['game_condition'] = 'Answer "yes" if the number is even, '\
-        'otherwise answer "no".'
+    output['game_condition'] = DESCRIPTION
 
     question = random.randrange(100)
     output['question'] = question

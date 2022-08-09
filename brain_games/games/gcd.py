@@ -1,11 +1,12 @@
 import math
 import random
 
+DESCRIPTION = 'Find the greatest common divisor of given numbers.'
+
 
 def gcd():
     output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
-    output['game_condition'] = 'Find the greatest common divisor '\
-        'of given numbers.'
+    output['game_condition'] = DESCRIPTION
 
     number1 = random.randrange(100)
     number2 = random.randrange(100)
