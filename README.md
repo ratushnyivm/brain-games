@@ -6,35 +6,35 @@
 ---
 
 ## Description
-
-«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. Каждая игра задает вопросы, на которые нужно дать правильные ответы. После трех правильных ответов считается, что игра пройдена. Неправильные ответы завершают игру и предлагают пройти ее заново.
+"Brain Games" is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again.
 
 ---
 
 ## Installation
 
-1. Склонируйте репозиторий на свой компьютер `git clone https://github.com/ratushnyyvm/python-project-lvl2.git`
-2. Перейдите в папку проекта `cd python-project-lvl2`
-3. Установите менеджер зависимостей Poetry `make install`
-4. Установите пакет с игрой `make package-install`
+1. Clone the repository to your computer `git clone https://github.com/ratushnyyvm/python-project-lvl2.git`
+2. Go to the project folder `cd python-project-lvl2`
+3. Install the dependency manager Poetry `make install`
+4. Install the game package `make package-install`
 
 ---
 
+## Usage
 
-| Game                           | Description                                                          | Run the game        |
-|--------------------------------|----------------------------------------------------------------------|---------------------|
-| "Calculation" game             | Калькулятор. Арифметические выражения, которые необходимо вычислить. | `brain-calc`        |
-| "Is even" game                 | Определение четного числа.                                           | `brain-even`        |
-| "Greatest common divisor" game | Определение наибольшего общего делителя.                             | `brain-gcd`         |
-| "Is prime" game                | Определение простого числа.                                          | `brain-prime`       |
-| "Progression" game             | Прогрессия. Поиск пропущенных чисел в последовательности чисел.      | `brain-progression` |
+| Run the game        | Description                                                          |
+|---------------------|----------------------------------------------------------------------|
+| `brain-calc`        | Калькулятор. Арифметические выражения, которые необходимо вычислить. |
+| `brain-even`        | Определение четного числа.                                           |
+| `brain-gcd`         | Определение наибольшего общего делителя.                             |
+| `brain-prime`       | Определение простого числа.                                          |
+| `brain-progression` | Прогрессия. Поиск пропущенных чисел в последовательности чисел.      |
 
 ---
 
 ## Demonstration
 
 <details>
-  <summary>installation demonstration</summary>
+  <summary>installation</summary>
     
   [![asciicast](https://asciinema.org/a/iXe6qBsfULEBR7qo6fAsSdVHo.svg)](https://asciinema.org/a/iXe6qBsfULEBR7qo6fAsSdVHo)
 </details>
