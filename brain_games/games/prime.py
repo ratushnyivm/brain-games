@@ -1,22 +1,24 @@
 import random
 
 DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+NUMBER_MAX = 100
 
 
-def is_prime(n):
-    if n % 2 == 0:
-        return n == 2
-    d = 3
-    while d * d <= n and n % d != 0:
-        d += 2
-    return d * d > n
+def is_prime(number):
+    if number % 2 == 0:
+        return number == 2
+
+    divisor = 3
+    while divisor * divisor <= number and number % divisor != 0:
+        divisor += 2
+
+    return divisor * divisor > number
 
 
 def prime():
-    output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
-    output['game_condition'] = DESCRIPTION
+    output = {'description': DESCRIPTION}
 
-    question = random.randrange(100)
+    question = random.randrange(NUMBER_MAX)
     output['question'] = question
 
     right_answer = 'yes' if is_prime(question) else 'no'

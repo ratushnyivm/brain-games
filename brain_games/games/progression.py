@@ -2,28 +2,33 @@ import random
 
 DESCRIPTION = 'What number is missing in the progression?'
 
+LENGTH_MIN = 6
+LENGTH_MAX = 11
+
+START_MIN = 0
+START_MAX = 20
+
+STEP_MIN = 1
+STEP_MAX = 10
+
+REPLACEMENT = '..'
+
 
 def progression():
-    output = dict.fromkeys(['game_condition', 'question', 'right_answer'])
-    output['game_condition'] = DESCRIPTION
+    output = {'description': DESCRIPTION}
 
-    progression_length = random.randrange(6, 11)
-    first_value = random.randrange(0, 20)
-    difference = random.randrange(1, 10)
-    progression = [first_value]
+    length = random.randint(LENGTH_MIN, LENGTH_MAX)
+    start = random.randint(START_MIN, START_MAX)
+    step = random.randint(STEP_MIN, STEP_MAX)
+    stop = start + length * step
+    progression = [str(item) for item in range(start, stop, step)]
 
-    for v in range(progression_length):
-        progression.append(progression[v] + difference)
+    hidden_value = random.choice(progression)
+    output['right_answer'] = hidden_value
 
-    for index, item in enumerate(progression):
-        progression[index] = str(item)
-
-    index_of_hidden_value = random.randrange(0, progression_length)
-    right_answer = progression[index_of_hidden_value]
-    output['right_answer'] = str(right_answer)
-
-    progression[index_of_hidden_value] = '..'
-    question = ' '.join(progression)
+    question = ' '.join(
+        item if item != hidden_value else REPLACEMENT for item in progression
+    )
     output['question'] = question
 
     return output
