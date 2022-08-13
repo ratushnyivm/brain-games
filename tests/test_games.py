@@ -1,4 +1,4 @@
-from brain_games.games import calc
+from brain_games.games import calc, even
 
 DESCRIPTION = 'description'
 QUESTION = 'question'
@@ -24,3 +24,12 @@ def test_calc():
         answer = int(question[0]) * int(question[2])
 
     assert answer == right_answer
+
+
+def test_even():
+    output = even.even()
+
+    assert type(output) is dict
+    assert type(output.get(DESCRIPTION)) is str
+    assert type(output.get(QUESTION)) is int
+    assert type(output.get(RIGHT_ANSWER)) is str
