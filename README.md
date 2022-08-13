@@ -21,13 +21,13 @@
 
 ## Usage
 
-| Run the game        | Description                                                          |
-|---------------------|----------------------------------------------------------------------|
-| `brain-calc`        | Калькулятор. Арифметические выражения, которые необходимо вычислить. |
-| `brain-even`        | Определение четного числа.                                           |
-| `brain-gcd`         | Определение наибольшего общего делителя.                             |
-| `brain-prime`       | Определение простого числа.                                          |
-| `brain-progression` | Прогрессия. Поиск пропущенных чисел в последовательности чисел.      |
+| Run the game        | Description                                                       |
+|---------------------|-------------------------------------------------------------------|
+| `brain-calc`        | Calculator. Arithmetic expressions to be calculated.              |
+| `brain-even`        | Definition of an even number.                                     |
+| `brain-gcd`         | Determining the greatest common divisor.                          |
+| `brain-prime`       | Definition of a prime number.                                     |
+| `brain-progression` | Progression. Search for missing numbers in a sequence of numbers. |
 
 ---
 
@@ -88,3 +88,7 @@
   ### loss
   [![asciicast](https://asciinema.org/a/ayAXLlBgzc3zdH9fpVDChQZNV.svg)](https://asciinema.org/a/ayAXLlBgzc3zdH9fpVDChQZNV)
 </details>
+
+---
+
+The first training project by profession [Python developer](https://ru.hexlet.io/programs/python)
