@@ -22,7 +22,7 @@ def engine(game_module, number_of_rounds=3):
         if_wrong = f"'{answer}' is wrong answer ;(. "\
             f"Correct answer was '{output_of_game_module['right_answer']}'."
 
-        if answer == output_of_game_module['right_answer']:
+        if answer.strip().lower() == output_of_game_module['right_answer']:
             print(Fore.LIGHTGREEN_EX + if_right)
         else:
             print(Fore.LIGHTRED_EX + if_wrong)
