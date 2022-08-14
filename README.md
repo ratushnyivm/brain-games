@@ -93,4 +93,4 @@
 
 ---
 
-The first training project by profession [Python developer](https://ru.hexlet.io/programs/python)
+The first training project from ["Python developer" course](https://ru.hexlet.io/programs/python)
