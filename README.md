@@ -48,47 +48,47 @@
   [![asciicast](https://asciinema.org/a/afy2sguMnRBjRoRlyqCtNvX0i.svg)](https://asciinema.org/a/afy2sguMnRBjRoRlyqCtNvX0i)
 
   ### loss
-  [![asciicast](https://asciinema.org/a/cQ4H28iDB7QmW0gLMZAiKxZFE.svg)](https://asciinema.org/a/cQ4H28iDB7QmW0gLMZAiKxZFE)
+  [![asciicast](https://asciinema.org/a/iSlmp2GNEEx3NOxPlGTAkwEkv.svg)](https://asciinema.org/a/iSlmp2GNEEx3NOxPlGTAkwEkv)
 </details>
 
 <details>
   <summary>brain_even</summary>
     
   ### win
-  [![asciicast](https://asciinema.org/a/Pi463y4vW3Wywd3kHQF715uPr.svg)](https://asciinema.org/a/Pi463y4vW3Wywd3kHQF715uPr)
+  [![asciicast](https://asciinema.org/a/qnF9f0NEfQPFC00FdtYl7fLgN.svg)](https://asciinema.org/a/qnF9f0NEfQPFC00FdtYl7fLgN)
 
   ### loss
-  [![asciicast](https://asciinema.org/a/bwTeK1GzdHR1vimJ0zrCwRd3K.svg)](https://asciinema.org/a/bwTeK1GzdHR1vimJ0zrCwRd3K)
+  [![asciicast](https://asciinema.org/a/RX2vFe4QPw2Ib3iAdLxRQYSNZ.svg)](https://asciinema.org/a/RX2vFe4QPw2Ib3iAdLxRQYSNZ)
 </details>
 
 <details>
   <summary>brain_gcd</summary>
     
   ### win
-  [![asciicast](https://asciinema.org/a/WI7a3Jmkh0JMpaCRHXrtVFtCM.svg)](https://asciinema.org/a/WI7a3Jmkh0JMpaCRHXrtVFtCM)
+  [![asciicast](https://asciinema.org/a/MwP56gOHD4Cnr2MLktqs5cKuj.svg)](https://asciinema.org/a/MwP56gOHD4Cnr2MLktqs5cKuj)
 
   ### loss
-  [![asciicast](https://asciinema.org/a/3zAxZBZeiRMbY2q5BIJXTFR8G.svg)](https://asciinema.org/a/3zAxZBZeiRMbY2q5BIJXTFR8G)
+  [![asciicast](https://asciinema.org/a/PqMbAujzS7f2U9zBosR0UEdgg.svg)](https://asciinema.org/a/PqMbAujzS7f2U9zBosR0UEdgg)
 </details>
 
 <details>
   <summary>brain_prime</summary>
     
   ### win
-  [![asciicast](https://asciinema.org/a/VhqbhjLTf335qGb2OcrTI9qxc.svg)](https://asciinema.org/a/VhqbhjLTf335qGb2OcrTI9qxc)
+  [![asciicast](https://asciinema.org/a/NiZrQUlahzg5nwLO3BBdUKdZQ.svg)](https://asciinema.org/a/NiZrQUlahzg5nwLO3BBdUKdZQ)
 
   ### loss
-  [![asciicast](https://asciinema.org/a/BySgKuaomBu8kGsaLOoerhoGk.svg)](https://asciinema.org/a/BySgKuaomBu8kGsaLOoerhoGk)
+  [![asciicast](https://asciinema.org/a/YGAl0k2KlYwh8dH24YP6SOYmR.svg)](https://asciinema.org/a/YGAl0k2KlYwh8dH24YP6SOYmR)
 </details>
 
 <details>
   <summary>brain_progression</summary>
     
   ### win
-  [![asciicast](https://asciinema.org/a/5w3osqrNiQrzldPdevzK9AWn1.svg)](https://asciinema.org/a/5w3osqrNiQrzldPdevzK9AWn1)
+  [![asciicast](https://asciinema.org/a/FK5p0Dmxtg02b2xEswd4YRCbE.svg)](https://asciinema.org/a/FK5p0Dmxtg02b2xEswd4YRCbE)
 
   ### loss
-  [![asciicast](https://asciinema.org/a/ayAXLlBgzc3zdH9fpVDChQZNV.svg)](https://asciinema.org/a/ayAXLlBgzc3zdH9fpVDChQZNV)
+  [![asciicast](https://asciinema.org/a/3oO7JjUsj0romQOucELlwqYM9.svg)](https://asciinema.org/a/3oO7JjUsj0romQOucELlwqYM9)
 </details>
 
 ---
