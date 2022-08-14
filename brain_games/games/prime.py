@@ -5,7 +5,7 @@ NUMBER_MAX = 100
 
 
 def is_prime(number):
-    if number % 2 == 0:
+    if number % 2 == 0 or number == 1:
         return number == 2
 
     divisor = 3
