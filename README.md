@@ -45,7 +45,7 @@
   <summary>brain_calc</summary>
     
   ### win
-  [![asciicast](https://asciinema.org/a/afy2sguMnRBjRoRlyqCtNvX0i.svg)](https://asciinema.org/a/afy2sguMnRBjRoRlyqCtNvX0i)
+  [![asciicast](https://asciinema.org/a/wlH3YnemKkvupRP4Bk8SBgHlm.svg)](https://asciinema.org/a/wlH3YnemKkvupRP4Bk8SBgHlm)
 
   ### loss
   [![asciicast](https://asciinema.org/a/iSlmp2GNEEx3NOxPlGTAkwEkv.svg)](https://asciinema.org/a/iSlmp2GNEEx3NOxPlGTAkwEkv)
