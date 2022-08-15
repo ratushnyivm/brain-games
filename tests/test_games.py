@@ -64,3 +64,17 @@ def test_gcd():
 def test_is_prime():
     for _ in range(4000):
         assert prime.is_prime(_) == sympy.isprime(_)
+
+
+def test_prime():
+    output = prime.prime()
+    question = output.get(QUESTION)
+    right_answer = output.get(RIGHT_ANSWER)
+
+    assert type(output) is dict
+    assert type(output.get(DESCRIPTION)) is str
+    assert type(question) is int
+    assert type(right_answer) is str
+
+    answer = 'yes' if sympy.isprime(question) else 'no'
+    assert answer == right_answer
