@@ -1,5 +1,6 @@
-from brain_games.games import calc, even, gcd
+from brain_games.games import calc, even, gcd, prime
 import math
+import sympy
 
 DESCRIPTION = 'description'
 QUESTION = 'question'
@@ -58,3 +59,8 @@ def test_gcd():
     answer = math.gcd(int(question[0]), int(question[1]))
 
     assert answer == right_answer
+
+
+def test_is_prime():
+    for _ in range(4000):
+        assert prime.is_prime(_) == sympy.isprime(_)
