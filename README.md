@@ -16,8 +16,7 @@
 
 1. Clone the repository to your computer `git clone https://github.com/ratushnyyvm/python-project-lvl2.git`
 2. Go to the project folder `cd python-project-lvl2`
-3. Install the dependency manager Poetry `make install`
-4. Install the game package `make package-install`
+3. Install the game package `make setup`
 
 ---
 
@@ -38,7 +37,7 @@
 <details>
   <summary>installation</summary>
     
-  [![asciicast](https://asciinema.org/a/iXe6qBsfULEBR7qo6fAsSdVHo.svg)](https://asciinema.org/a/iXe6qBsfULEBR7qo6fAsSdVHo)
+  [![asciicast](https://asciinema.org/a/LTGDQ0FKulquqcR4nOFHLKJAQ.svg)](https://asciinema.org/a/LTGDQ0FKulquqcR4nOFHLKJAQ)
 </details>
 
 <details>
