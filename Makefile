@@ -28,3 +28,5 @@ test-cov:
 
 test-coverage:
 	poetry run pytest --cov=brain_games --cov-report xml
+
+setup: install build package-install
