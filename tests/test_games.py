@@ -1,4 +1,4 @@
-from brain_games.games import calc, even, gcd, prime
+from brain_games.games import calc, even, gcd, prime, progression
 import math
 import sympy
 
@@ -78,3 +78,12 @@ def test_prime():
 
     answer = 'yes' if sympy.isprime(question) else 'no'
     assert answer == right_answer
+
+
+def test_progression():
+    output = progression.progression()
+
+    assert type(output) is dict
+    assert type(output.get(DESCRIPTION)) is str
+    assert type(output.get(QUESTION)) is str
+    assert type(output.get(RIGHT_ANSWER)) is str
