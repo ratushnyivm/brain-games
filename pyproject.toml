@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = "The first training project by profession Python developer"
+description = "The first training project from Python developer course"
 authors = ["ratushnyyvm <ratushnyyvm@gmail.com>"]
 repository = "https://github.com/ratushnyyvm/python-project-lvl1"
 classifiers = [
