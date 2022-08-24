@@ -14,8 +14,8 @@
 
 ## Installation
 
-1. Clone the repository to your computer `git clone https://github.com/ratushnyyvm/python-project-lvl2.git`
-2. Go to the project folder `cd python-project-lvl2`
+1. Clone the repository to your computer `git clone https://github.com/ratushnyyvm/python-project-lvl1.git`
+2. Go to the project folder `cd python-project-lvl1`
 3. Install the game package `make setup`
 
 ---
