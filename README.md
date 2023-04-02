@@ -2,8 +2,8 @@
 
 # Brain games
 
-[![Actions Status](https://github.com/ratushnyyvm/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ratushnyyvm/python-project-lvl1/actions)
-[![lint and test](https://github.com/ratushnyyvm/python-project-lvl1/actions/workflows/brain-games-CI.yml/badge.svg)](https://github.com/ratushnyyvm/python-project-lvl1/actions/workflows/brain-games-CI.yml)
+[![hexlet-check](https://github.com/ratushnyyvm/brain-games/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ratushnyyvm/brain-games/actions/workflows/hexlet-check.yml)
+[![lint and test](https://github.com/ratushnyyvm/brain-games/actions/workflows/brain-games-CI.yml/badge.svg)](https://github.com/ratushnyyvm/brain-games/actions/workflows/brain-games-CI.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0b9b52f59c4b42e900d3/maintainability)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0b9b52f59c4b42e900d3/test_coverage)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/test_coverage)
 
@@ -31,7 +31,7 @@
 
 Before installation, make sure that you have [Poetry](https://python-poetry.org/) installed.
 
-1. Clone the repository to your computer `git clone https://github.com/ratushnyyvm/python-project-lvl1.git`
+1. Clone the repository to your computer `git clone https://github.com/ratushnyyvm/brain-games.git`
 2. Go to the project folder `cd brain-games`
 3. Install the game package `make setup`
 
