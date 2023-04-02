@@ -63,12 +63,11 @@ def test_gcd():
 
 def test_is_prime():
     prime_numbers = [
-        2,	3,	5,	7,	11,	13,	17,	19,	23,	29,
-        31,	37,	41,	43,	47,	53,	59,	61,	67,	71,
-        73,	79,	83,	89,	97,
+        2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67,
+        71, 73, 79, 83, 89, 97,
     ]
     for num in prime_numbers:
-        assert prime.is_prime(num) == True
+        assert prime.is_prime(num) is True
 
     not_prime_numbers = [
         0, 1, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27,
@@ -78,7 +77,7 @@ def test_is_prime():
         98, 99, 100
     ]
     for num in not_prime_numbers:
-        assert prime.is_prime(num) == False
+        assert prime.is_prime(num) is False
 
 
 def test_prime():
