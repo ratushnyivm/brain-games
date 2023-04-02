@@ -61,9 +61,24 @@ def test_gcd():
     assert answer == right_answer
 
 
-'''def test_is_prime():
-    for _ in range(4000):
-        assert prime.is_prime(_) == sympy.isprime(_)'''
+def test_is_prime():
+    prime_numbers = [
+        2,	3,	5,	7,	11,	13,	17,	19,	23,	29,
+        31,	37,	41,	43,	47,	53,	59,	61,	67,	71,
+        73,	79,	83,	89,	97,
+    ]
+    for num in prime_numbers:
+        assert prime.is_prime(num) == True
+
+    not_prime_numbers = [
+        0, 1, 4, 6, 8, 9, 10, 12, 14, 15, 16, 18, 20, 21, 22, 24, 25, 26, 27,
+        28, 30, 32, 33, 34, 35, 36, 38, 39, 40, 42, 44, 45, 46, 48, 49, 50, 51,
+        52, 54, 55, 56, 57, 58, 60, 62, 63, 64, 65, 66, 68, 69, 70, 72, 74, 75,
+        76, 77, 78, 80, 81, 82, 84, 85, 86, 87, 88, 90, 91, 92, 93, 94, 95, 96,
+        98, 99, 100
+    ]
+    for num in not_prime_numbers:
+        assert prime.is_prime(num) == False
 
 
 def test_prime():
@@ -76,14 +91,32 @@ def test_prime():
     assert type(question) is int
     assert type(right_answer) is str
 
-    # answer = 'yes' if sympy.isprime(question) else 'no'
-    # assert answer == right_answer
+    if prime.is_prime(question) is True:
+        assert right_answer == 'yes'
+    elif prime.is_prime(question) is False:
+        assert right_answer == 'no'
 
 
 def test_progression():
     output = progression.progression()
+    question = output.get(QUESTION)
+    right_answer = output.get(RIGHT_ANSWER)
 
     assert type(output) is dict
     assert type(output.get(DESCRIPTION)) is str
-    assert type(output.get(QUESTION)) is str
-    assert type(output.get(RIGHT_ANSWER)) is str
+    assert type(question) is str
+    assert type(right_answer) is str
+
+    left, right = question.split('..')
+    left = left.strip().split()
+    right = right.strip().split()
+
+    subarray = left if len(left) >= len(right) else right
+    step = int(subarray[1]) - int(subarray[0])
+
+    if subarray == left:
+        answer = str(int(subarray[-1]) + step)
+    else:
+        answer = str(int(subarray[0]) - step)
+
+    assert answer == right_answer

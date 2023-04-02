@@ -1,8 +1,10 @@
-from colorama import init, Fore
 import prompt
+from colorama import Fore, init
+
+NUMBER_OF_ROUNDS = 3
 
 
-def engine(game_module, number_of_rounds=3):
+def engine(game_module, number_of_rounds=NUMBER_OF_ROUNDS):
     init(autoreset=True)
 
     print('Welcome to the Brain Games!')
@@ -12,20 +14,20 @@ def engine(game_module, number_of_rounds=3):
 
     print(game_module()['description'])
 
-    for i in range(number_of_rounds):
+    for _ in range(number_of_rounds):
         output_of_game_module = game_module()
 
         print(f"Question: {output_of_game_module['question']}")
         answer = prompt.string('Your answer: ')
 
-        if_right = "Correct!"
-        if_wrong = f'"{answer}" is wrong answer ;(. '\
+        right = "Correct!"
+        wrong = f'"{answer}" is wrong answer ;(. '\
             f'Correct answer was "{output_of_game_module["right_answer"]}".'
 
         if answer.strip().lower() == output_of_game_module['right_answer']:
-            print(Fore.LIGHTGREEN_EX + if_right)
+            print(Fore.LIGHTGREEN_EX + right)
         else:
-            print(Fore.LIGHTRED_EX + if_wrong)
+            print(Fore.LIGHTRED_EX + wrong)
             return print(f"Let's try again, {name}!")
 
     return print(f"Congratulations, {name}!")

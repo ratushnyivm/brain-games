@@ -1,3 +1,5 @@
+<div align="center">
+
 # Brain games
 
 [![Actions Status](https://github.com/ratushnyyvm/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/ratushnyyvm/python-project-lvl1/actions)
@@ -5,17 +7,32 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/0b9b52f59c4b42e900d3/maintainability)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/0b9b52f59c4b42e900d3/test_coverage)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/test_coverage)
 
+</div>
+
 ---
 
 ## Description
+
 "Brain Games" is a set of five console games based on the popular mobile brain-pumping apps. Each game asks questions that need to be answered correctly. After three correct answers, the game is considered completed. Incorrect answers end the game and prompt you to play it again.
+
+---
+
+## Dependencies
+
+| Tool       | Version         |
+|------------|-----------------|
+| python     | "^3.8.1"  |
+| prompt     | "^0.4.1"        |
+| colorama   | "^0.4.5"        |
 
 ---
 
 ## Installation
 
+Before installation, make sure that you have [Poetry](https://python-poetry.org/) installed.
+
 1. Clone the repository to your computer `git clone https://github.com/ratushnyyvm/python-project-lvl1.git`
-2. Go to the project folder `cd python-project-lvl1`
+2. Go to the project folder `cd brain-games`
 3. Install the game package `make setup`
 
 ---
@@ -89,7 +106,3 @@
   ### loss
   [![asciicast](https://asciinema.org/a/3oO7JjUsj0romQOucELlwqYM9.svg)](https://asciinema.org/a/3oO7JjUsj0romQOucELlwqYM9)
 </details>
-
----
-
-The first training project from ["Python developer" course](https://ru.hexlet.io/programs/python)

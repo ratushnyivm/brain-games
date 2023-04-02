@@ -15,7 +15,7 @@ package-install:
 	python3 -m pip install --user dist/*.whl
 
 package-reinstall:
-	python3 -m pip install --user dist/*.whl --force-reinstall
+	python3 -m pip install dist/*.whl --force-reinstall
 
 lint:
 	poetry run flake8 brain_games
@@ -24,7 +24,7 @@ test:
 	poetry run pytest
 
 test-cov:
-	poetry run pytest --cov
+	poetry run pytest --cov=brain_games
 
 test-coverage:
 	poetry run pytest --cov=brain_games --cov-report xml

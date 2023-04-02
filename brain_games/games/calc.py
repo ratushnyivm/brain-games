@@ -16,16 +16,16 @@ def calc():
     multiplication = number1 * number2
 
     operators_sign = {
-        addition: '+',
-        subtraction: '-',
-        multiplication: '*'
+        '+': addition,
+        '-': subtraction,
+        '*': multiplication,
     }
-    operators = list(operators_sign.keys())
+    curr_operator = random.choice(list(operators_sign))
 
-    right_answer = random.choice(operators)
+    right_answer = operators_sign[curr_operator]
     output['right_answer'] = str(right_answer)
 
-    question = f'{number1} {operators_sign[right_answer]} {number2}'
+    question = f'{number1} {curr_operator} {number2}'
     output['question'] = question
 
     return output
