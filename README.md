@@ -4,8 +4,8 @@
 
 [![hexlet-check](https://github.com/ratushnyyvm/brain-games/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/ratushnyyvm/brain-games/actions/workflows/hexlet-check.yml)
 [![lint and test](https://github.com/ratushnyyvm/brain-games/actions/workflows/brain-games-CI.yml/badge.svg)](https://github.com/ratushnyyvm/brain-games/actions/workflows/brain-games-CI.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/0b9b52f59c4b42e900d3/maintainability)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/0b9b52f59c4b42e900d3/test_coverage)](https://codeclimate.com/github/ratushnyyvm/python-project-lvl1/test_coverage)
+[![Maintainability](https://api.codeclimate.com/v1/badges/2fc9b879fe007ad660d6/maintainability)](https://codeclimate.com/github/ratushnyyvm/brain-games/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/2fc9b879fe007ad660d6/test_coverage)](https://codeclimate.com/github/ratushnyyvm/brain-games/test_coverage)
 
 </div>
 
@@ -21,7 +21,7 @@
 
 | Tool       | Version         |
 |------------|-----------------|
-| python     | "^3.8.1"  |
+| python     | "^3.8.1"        |
 | prompt     | "^0.4.1"        |
 | colorama   | "^0.4.5"        |
 

@@ -1,3 +1,6 @@
+shell:
+	poetry shell
+
 install:
 	poetry install
 
@@ -12,7 +15,7 @@ publish:
 
 package-install:
 	python3 -m pip uninstall hexlet-code -y
-	python3 -m pip install --user dist/*.whl
+	python3 -m pip install dist/*.whl
 
 package-reinstall:
 	python3 -m pip install dist/*.whl --force-reinstall
@@ -29,4 +32,4 @@ test-cov:
 test-coverage:
 	poetry run pytest --cov=brain_games --cov-report xml
 
-setup: install build package-install
+setup: shell install build package-install
