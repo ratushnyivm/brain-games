@@ -1,6 +1,3 @@
-shell:
-	poetry shell
-
 install:
 	poetry install
 
@@ -32,4 +29,4 @@ test-cov:
 test-coverage:
 	poetry run pytest --cov=brain_games --cov-report xml
 
-setup: shell install build package-install
+setup: install build package-install
